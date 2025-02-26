@@ -25,5 +25,5 @@ if [ "$score" -ge 0 ] && [ "$score" -le 100 ]; then
     fi
     echo "Your grade is: $grade"
 else
-    echo "Error: Score must be between 0 and 100."
+   echo "Invalid input! Please enter a number between 0 and 100."
 fi
